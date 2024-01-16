@@ -1,0 +1,115 @@
+{
+	"events": [
+		{
+			"id": 1,
+			"lugar": "Teatro Municipal",
+			"imagen": "./img/cultural.avif",
+			"fecha": "2024-03-15",
+			"nombre": "Concierto en Vivo",
+			"categoria": "Música",
+			"destacado": 1,
+			"descripcion": "Únete a una experiencia musical única en el majestuoso Teatro Municipal. Este concierto en vivo te transportará a un mundo de melodías y emociones inolvidables."
+		},
+		{
+			"id": 2,
+			"lugar": "Estadio Nacional",
+			"imagen": "https://ejemplo.com/imagen2.jpg",
+			"fecha": "2024-04-20",
+			"nombre": "Festival de Música",
+			"categoria": "Música",
+			"descripcion": "¡Prepárate para la euforia musical en el Estadio Nacional! Un festival lleno de energía, artistas destacados y momentos inolvidables te espera."
+		},
+		{
+			"id": 3,
+			"lugar": "Auditorio Principal",
+			"imagen": "https://ejemplo.com/imagen3.jpg",
+			"fecha": "2024-05-10",
+			"nombre": "Noche de Jazz",
+			"categoria": "Música",
+			"descripcion": "Sumérgete en la atmósfera encantadora de la Noche de Jazz en el Auditorio Principal. Disfruta de improvisaciones magistrales y ritmos cautivadores."
+		},
+		{
+			"id": 4,
+			"lugar": "Parque Central",
+			"imagen": "https://ejemplo.com/imagen4.jpg",
+			"fecha": "2024-06-05",
+			"nombre": "Concierto al Aire Libre",
+			"categoria": "Música",
+			"descripcion": "Vive la música en armonía con la naturaleza en nuestro Concierto al Aire Libre en el hermoso Parque Central. Una experiencia única bajo el cielo estrellado."
+		},
+		{
+			"id": 5,
+			"lugar": "Club Nocturno",
+			"imagen": "./img/deporte.avif",
+			"fecha": "2024-07-12",
+			"nombre": "Fiesta de Baile",
+			"categoria": "Baile",
+			"destacado": 1,
+			"descripcion": "La pista de baile del Club Nocturno cobra vida con nuestra explosiva Fiesta de Baile. ¡Prepárate para una noche llena de ritmo, luces y diversión sin límites!"
+		},
+		{
+			"id": 6,
+			"lugar": "Centro de Convenciones",
+			"imagen": "./img/cultural.avif",
+			"fecha": "2024-08-18",
+			"nombre": "Exposición Musical",
+			"categoria": "Arte",
+			"destacado": 1,
+			"descripcion": "Explora la fusión de sonidos y expresiones artísticas en nuestra Exposición Musical en el Centro de Convenciones. Una exhibición única que despierta los sentidos."
+		},
+		{
+			"id": 7,
+			"lugar": "Anfiteatro al Aire Libre",
+			"imagen": "https://ejemplo.com/imagen7.jpg",
+			"fecha": "2024-09-25",
+			"nombre": "Recital de Rock",
+			"categoria": "Música",
+			"descripcion": "Siente la potencia del rock en nuestro épico Recital de Rock en el Anfiteatro al Aire Libre. Una noche intensa llena de guitarras distorsionadas y emociones desbordantes."
+		},
+		{
+			"id": 8,
+			"lugar": "Sala de Conciertos",
+			"imagen": "https://ejemplo.com/imagen8.jpg",
+			"fecha": "2024-10-30",
+			"nombre": "Noche de Clásicos",
+			"categoria": "Música",
+			"descripcion": "Déjate envolver por la majestuosidad de la música clásica en nuestra Noche de Clásicos en la elegante Sala de Conciertos. Un viaje sonoro a través de las épocas."
+		},
+		{
+			"id": 9,
+			"lugar": "Plaza Principal",
+			"imagen": "https://ejemplo.com/imagen9.jpg",
+			"fecha": "2024-11-15",
+			"nombre": "Festival Folkórico",
+			"categoria": "Cultural",
+			"descripcion": "Sumérgete en la riqueza de nuestras tradiciones en el Festival Folkórico de la Plaza Principal. Una celebración cultural con danzas, música y colores vibrantes."
+		},
+		{
+			"id": 10,
+			"lugar": "Estudio de Grabación",
+			"imagen": "https://ejemplo.com/imagen10.jpg",
+			"fecha": "2024-12-01",
+			"nombre": "Presentación Acústica",
+			"categoria": "Música",
+			"descripcion": "Experimenta la magia de la música en su forma más pura con nuestra Presentación Acústica en el íntimo Estudio de Grabación. Una experiencia sonora única."
+		},
+		{
+			"id": 11,
+			"lugar": "Centro Cultural",
+			"imagen": "https://ejemplo.com/imagen11.jpg",
+			"fecha": "2025-01-08",
+			"nombre": "Gala de Ópera",
+			"categoria": "Arte",
+			"descripcion": "Embárcate en una noche de elegancia y melodía con nuestra Gala de Ópera en el Centro Cultural. Voces sublimes y actuaciones impactantes te esperan."
+		},
+		{
+			"id": 12,
+			"lugar": "Bar de Jazz",
+			"imagen": "https://ejemplo.com/imagen12.jpg",
+			"fecha": "2025-02-14",
+			"nombre": "Jam Session",
+			"categoria": "Música",
+			"descripcion": "Únete a la improvisación y la creatividad en nuestra Jam Session del Bar de Jazz. Una noche donde la magia musical surge de la espontaneidad y la pasión."
+		}
+	]
+}
