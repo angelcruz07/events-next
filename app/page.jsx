@@ -1,40 +1,14 @@
 import Carousel from './components/Carousel'
 import Link from 'next/link'
-
-// Feching of data
-async function getEvents() {
-	const res = await fetch('http://localhost:4000/events')
-	if (!res.ok) {
-		throw new Error('Failded to fetch data')
-	}
-	return res.json()
-}
-
-function groupEventsByCategory(events) {
-	return events.reduce((groupedEvents, event) => {
-		const category = event.categoria
-
-		if (!groupedEvents[category]) {
-			groupedEvents[category] = []
-		}
-
-		groupedEvents[category].push(event)
-
-		return groupedEvents
-	}, {})
-}
-
-async function getEventosDestacados() {
-	const res = await fetch('http://localhost:4000/events?destacado=1')
-	if (!res.ok) {
-		throw new Error('Failded to fetch data')
-	}
-	return res.json()
-}
+import {
+	getEvents,
+	groupEventsByCategory,
+	getFeaturedEvents
+} from './utils/callback-api'
 
 const Home = async () => {
 	const events = await getEvents()
-	const eventsDestacados = await getEventosDestacados()
+	const eventsDestacados = await getFeaturedEvents()
 	const groupedEvents = groupEventsByCategory(events)
 	return (
 		<>
@@ -80,7 +54,7 @@ const Home = async () => {
 
 				<div className='card-group gap-4 m-4 border-0'>
 					{eventsDestacados.map((event) => (
-						<div className='card  border-0'>
+						<div className='card  border-0' key={event.id}>
 							<div className='card-body'>
 								<img
 									src={event.imagen}

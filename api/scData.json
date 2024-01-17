@@ -111,5 +111,28 @@
 			"categoria": "Música",
 			"descripcion": "Únete a la improvisación y la creatividad en nuestra Jam Session del Bar de Jazz. Una noche donde la magia musical surge de la espontaneidad y la pasión."
 		}
+	],
+	"lugares": [
+		{
+			"id": 1,
+			"tipo": "Teatro",
+			"nombre": "Teatro Metropolitan",
+			"img": "./img/teatro.jpg",
+			"descripcion": "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bitlonger."
+		},
+		{
+			"id": 2,
+			"nombre": "Museo Mastermind NateGentile",
+			"tipo": "Historia",
+			"img": "./img/cultural.avif",
+			"descripcion": "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bitlonger."
+		},
+		{
+			"id": 3,
+			"nombre": "Estadio NemesioDiez",
+			"tipo": "Deporte",
+			"img": "./img/estadio.avif",
+			"descripcion": "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bitlonger."
+		}
 	]
 }
